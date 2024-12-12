@@ -1,0 +1,989 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0px 0px;
+  /* background-color: blanchedalmond;    
+    width: 100%;
+    height: 210px; */
+}
+
+/* navber2 start */
+
+.navber1 {
+  padding: 0px 0px;
+}
+
+.navber1 .olx {
+  padding: 20px 120px;
+  gap: 20px;
+  display: flex;
+}
+
+.navber1 .fa-car-rear {
+  font-size: 20px;
+  border-radius: 20px;
+  width: 44px;
+  height: 42px;
+  margin: 0px 30px;
+  cursor: pointer;
+  background-color: #4640404a;
+  padding: 10px 10px;
+}
+
+.navber1 .fa-car-rear:hover {
+  color: blue;
+}
+
+.navber1 .Motors {
+  color: #002f34;
+  margin: 0px -45px;
+  font-size: 20px;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.navber1 .Motors:hover {
+  color: blue;
+}
+
+.navber1 .fa-house {
+  font-size: 20px;
+  border-radius: 20px;
+  width: 44px;
+  height: 42px;
+  margin: 0px 50px;
+  cursor: pointer;
+  background-color: #4640404a;
+  padding: 10px 10px;
+}
+
+.navber1 .fa-house:hover {
+  color: blue;
+}
+
+.navber1 .Property {
+  color: #002f34;
+  margin: 0px -65px;
+  font-size: 20px;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.navber1 .Property:hover {
+  color: blue;
+}
+
+/* navber1 end */
+
+/* navber2 start */
+
+.navber2 {
+  margin: 0px 120px;
+}
+
+.navber2 .fa-location-dot {
+  margin: 10px 10px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.navber2 #select {
+  border-radius: 5px;
+  font-size: 15px;
+  color: black;
+  padding: 0px 40px;
+  width: 300px;
+  height: 40px;
+}
+
+.navber2 input {
+  border-radius: 5px;
+  margin: 0px 15px;
+  width: 700px;
+  height: 40px;
+}
+
+.navber2 .fa-magnifying-glass {
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 40px;
+  margin: 0px -22px;
+  padding: 7px 15px;
+  font-size: 20px;
+}
+
+.navber2 .Login {
+  margin: 0px 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navber2 .img1 {
+  margin: 0px -30px;
+  position: absolute;
+}
+
+.navber2 .img2 {
+  margin: 15px -10px;
+  position: absolute;
+}
+
+.navber2 .Sell {
+  position: absolute;
+  margin: 12px 12px;
+  font-size: 20px;
+}
+/* navber2 end */
+
+hr {
+  margin: 30px 0px;
+}
+
+/* navber3 start */
+
+.navber3 {
+  margin: 0px 120px;
+}
+
+.navber3 ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.navber3 .ALL {
+  text-decoration: none;
+  color: #002f34;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.navber3 li a {
+  text-decoration: none;
+  color: #002f34;
+  cursor: pointer;
+}
+
+/* navber3 end */
+
+.ads {
+  padding: 40px 120px;
+}
+
+.ads img {
+  border-radius: 2px;
+}
+
+.Categories {
+  padding: 0px 120px;
+}
+
+/* main-body start */
+
+.main-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 47px;
+  padding: 50px 120px;
+}
+
+.body {
+  padding: 0px 0px;
+}
+
+.main-body img {
+  width: 100px;
+  height: 100px;
+}
+
+.main-body .Mobile {
+  text-align: center;
+  width: 100px;
+  margin: 0px 0px;
+  font-size: 1.1rem;
+}
+
+/* main-body end */
+
+/* card 1 start */
+
+.h1-mobile {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0px 104px;
+  gap: 955px;
+}
+
+.h1-mobile .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.card {
+  cursor: pointer;
+  width: 300px;
+  height: 390px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content {
+  padding: 15px 10px;
+  display: flex;
+  gap: 176px;
+}
+
+.card-content .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container .Googlepixel8pro {
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+
+.card-container .Ferozepur {
+  padding: 15px 10px;
+  font-size: 1.2rem;
+}
+
+.card-container .weeks2 {
+  padding: 0px 10px;
+  font-size: 1rem;
+}
+
+/* card 1 end */
+
+/* card 2 start */
+
+.h1-mobile-1 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0px 104px;
+  gap: 1090px;
+  line-height: 90px;
+}
+
+.h1-mobile-1 .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile-1 a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: -28px 0px;
+  justify-content: center;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content-1 {
+  padding: 15px 10px;
+  display: flex;
+  gap: 163px;
+}
+
+.card-content-1 .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content-1 .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container-1 .Googlepixel8pro {
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+
+.card-container-1 .Ferozepur {
+  padding: 20px 10px;
+  font-size: 1rem;
+}
+
+.card-container-1 .Jamshed {
+  margin: -15px 10px;
+}
+
+.card-container-1 .weeks2 {
+  padding: 25px 10px;
+  font-size: 1rem;
+}
+
+/* card 2 end */
+
+/* card 3 start */
+
+.h1-mobile-3 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 60px 104px;
+  gap: 862px;
+}
+
+.h1-mobile-3 .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile-3 a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container-3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: -50px 0px;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content-3 {
+  padding: 15px 10px;
+  display: flex;
+  gap: 163px;
+}
+
+.card-content-3 .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content-3 .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container-3 .Googlepixel8pro {
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+
+.card-container-3 .Ferozepur {
+  padding: 30px 10px;
+  font-size: 1rem;
+}
+
+.card-container-3 .Johar-Town {
+  padding: 53px 10px;
+}
+
+.card-container-3 .weeks3 {
+  margin: -46px 10px;
+}
+
+.card-container-3 .Jamshed {
+  margin: -15px 10px;
+}
+
+.card-container-3 .weeks2 {
+  padding: 0px 10px;
+  font-size: 1rem;
+  margin: -20px 0px;
+}
+/* card 3 end */
+
+/* card 4 start */
+
+.h1-mobile-4 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 80px 104px;
+  gap: 1060px;
+}
+
+.h1-mobile-4 .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile-4 a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container-4 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: -70px 0px;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content-4 {
+  padding: 15px 10px;
+  display: flex;
+  gap: 154px;
+}
+
+.card-content-4 .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content-4 .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container-4 .Googlepixel8pro {
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+
+.card-container-4 .paragraph-1 {
+  padding: 15px 10px;
+  font-size: 15px;
+}
+
+.card-container-4 .Ferozepur {
+  padding: 0px 10px;
+  font-size: 1rem;
+}
+
+.card-container-4 .Johar-Town {
+  padding: 0px 10px;
+}
+
+.card-container-4 .weeks3 {
+  margin: 0px 10px;
+}
+
+.card-container-4 .Jamshed {
+  margin: -15px 10px;
+}
+
+.card-container-4 .weeks2 {
+  padding: 0px 10px;
+  font-size: 1rem;
+  margin: 0px 0px;
+}
+/* card 4 end */
+
+/* card 5 start */
+
+.h1-mobile-5 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 115px 104px;
+  gap: 961px;
+}
+
+.h1-mobile-5 .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile-5 a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container-5 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: -105px 0px;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content-5 {
+  padding: 15px 10px;
+  display: flex;
+  gap: 185px;
+}
+
+.card-content-5 .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content-5 .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container-5 .Googlepixel8pro {
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+
+.card-container-5 .Ferozepur {
+  padding: 25px 10px;
+  font-size: 1rem;
+}
+
+.card-container-5 .Jamshed {
+  margin: -15px 10px;
+}
+
+.card-container-5 .weeks2 {
+  padding: 0px 10px;
+  font-size: 1rem;
+  margin: -12px 0px;
+}
+
+/* card 5 end */
+
+/* card 6 start */
+
+.h1-mobile-6 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 145px 104px;
+  gap: 1060px;
+}
+
+.h1-mobile-6 .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile-6 a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container-6 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: -125px 0px;
+}
+
+.card {
+  cursor: pointer;
+  width: 300px;
+  height: 390px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content-6 {
+  padding: 15px 10px;
+  display: flex;
+  gap: 185px;
+}
+
+.card-content-6 .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content-6 .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container-6 .Googlepixel8pro {
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+
+.card-container-6 .Ferozepur {
+  padding: 15px 10px;
+  font-size: 1.2rem;
+}
+
+.card-container-6 .weeks2 {
+  padding: 0px 10px;
+  font-size: 1rem;
+}
+
+/* card 6 end */
+
+/* card 7 Start */
+
+.h1-mobile-7 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 160px 104px;
+  gap: 972px;
+}
+
+.h1-mobile-7 .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile-7 a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container-7 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: -145px 0px;
+}
+
+.card {
+  cursor: pointer;
+  width: 300px;
+  height: 390px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content {
+  padding: 15px 10px;
+  display: flex;
+  gap: 176px;
+}
+
+.card-content .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container-7 .Googlepixel8pro {
+  padding: 0px 10px;
+  font-size: 1.1rem;
+}
+
+.card-container-7 .Ferozepur {
+  padding: 30px 10px;
+  font-size: 16px;
+}
+
+.card-container-7 .weeks2 {
+  padding: 0px 10px;
+  font-size: 1rem;
+  margin: -20px 0px;
+}
+
+/* card 7 end */
+
+/* card 8 Start */
+
+.h1-mobile-8 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 180px 104px;
+  gap: 1090px;
+}
+
+.h1-mobile-8 .mobile-1 {
+  padding: 0px 0px;
+}
+
+.h1-mobile-8 a {
+  text-decoration: none;
+  padding: 9px 0px;
+  color: #3a77ff;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+
+.card-container-8 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: -165px 0px;
+}
+
+.card {
+  cursor: pointer;
+  width: 300px;
+  height: 390px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card img {
+  width: 312px;
+  height: 200px;
+}
+
+.card-content-8 {
+  padding: 15px 10px;
+  display: flex;
+  gap: 0px;
+}
+
+.card-content-8 .Rs135 {
+  font-size: 1.1rem;
+}
+
+.card-content-8 .fa-regular {
+  font-size: 1.4rem;
+}
+
+.card-container-8 .Ferozepur {
+  padding: 50px 10px;
+  font-size: 16px;
+}
+
+.card-container-8 .weeks2 {
+  padding: 0px 10px;
+  font-size: 1rem;
+  margin: -40px 0px;
+}
+
+/* card 8 end */
+
+.ads-23 {
+  padding: 190px 248px;
+  position: absolute;
+}
+
+/* End start */
+
+.img-end-1 {
+  margin: 459px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  height: 200px;
+  background: rgba(0, 47, 52, 0.03);
+}
+
+.img-end-1 .img-end-2 {
+  padding: 0px 0px;
+}
+
+.img-end-1 img {
+  padding: 0px 0px;
+}
+
+.img-end-1 .Try-the-OLX {
+  padding: 0px 0px;
+}
+
+.img-end-1 .Trythe {
+  padding: 30px 0px;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.img-end-1 .Buy {
+  font-size: 25px;
+  max-width: 30rem;
+}
+
+.img-end-1 .Get-your {
+  padding: 80px 0px;
+}
+
+.img-end-1 .Getyour {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.images img {
+  cursor: pointer;
+  width: 120px;
+  height: 100%;
+  padding: 0px 0px;
+}
+
+/* End end */
+
+/* lastend start  */
+
+.last-end {
+  background-color: #ebeeef;
+  border-top: 1px solid rgba(0, 47, 52, 0.2);
+  display: flex;
+  gap: 75px;
+  padding: 0px 0px;
+  margin: -460px 0px;
+  width: 100%;
+  justify-content: center;
+}
+
+.last-end .end-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.last-end h3 {
+  font-size: 14px;
+  padding: 15px 0px;
+  text-transform: uppercase;
+}
+
+.last-end a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(0, 47, 52, 0.64);
+}
+
+.last-end .end-2 {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.last-end .end-3 {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.last-end .end-4 {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.end-5 {
+  padding: 12px 60px;
+}
+
+.end-5 h2 {
+  text-transform: uppercase;
+}
+
+.end-5 .fa-twitter {
+  padding: 0px 10px;
+}
+
+.end-5 .fa-facebook {
+  padding: 0px 10px;
+}
+.end-5 .fa-play {
+  padding: 0px 10px;
+}
+
+.end-5 .fa-instagram {
+  padding: 0px 10px;
+}
+
+.end-5 .class {
+  display: flex;
+  gap: 5px;
+}
+
+.end-5 .class img {
+  width: 60px;
+  cursor: pointer;
+  /* height: 100px; */
+  padding: 40px 0px;
+}
+
+/* lastend end */
+
+/* last start */
+
+.free {
+  height: 30px;
+  background-color: black;
+  padding: 5px 0px;
+  margin: 460px 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.free .Pakistan {
+  color: white;
+  float: right;
+  display: flex;
+  gap: 10px;
+  padding: 0px 20px;
+}
+
+.free .Pakistan span {
+  padding: 0px 0px;
+}
+
+/* last end   */
